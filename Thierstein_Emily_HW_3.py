@@ -1,5 +1,7 @@
 from numpy import zeros, linspace, pi, cos, array, sin, vectorize, add, square
 import matplotlib.pyplot as plt
+
+#plots the trajectory of a mass on a spring using the expicit Euler method
 def plotSpring (X_0, V_0, hDenominator, plot):
     omega = 1
     P = 2*pi/omega
